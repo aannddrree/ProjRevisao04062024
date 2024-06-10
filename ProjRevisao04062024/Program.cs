@@ -1,4 +1,5 @@
-﻿using ProjRevisao04062024.Models;
+﻿using Controllers;
+using ProjRevisao04062024.Models;
 
 Console.WriteLine("Hello, World!");
 
@@ -10,9 +11,21 @@ Saturno saturno = new Saturno() { Id = 2, Nome = "Saturno" };
 
 terra.rotacao(100);
 terra.translacao(200);
+terra.QtdPopulacao = 1000;
 
 saturno.translacao(100);
 saturno.rotacao(50);
 
 Console.WriteLine(saturno.ToString());
 Console.WriteLine(terra.ToString());
+
+TerraController terraController = new TerraController();
+
+if (terraController.Insert(terra))
+{
+    Console.WriteLine("Sucesso");
+}
+else
+{
+    Console.WriteLine("Erro");
+}

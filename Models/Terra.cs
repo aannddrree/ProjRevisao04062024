@@ -9,7 +9,6 @@ namespace ProjRevisao04062024.Models
 {
     public class Terra : Planeta
     {
-        public int Teste { get; set; }
-        public int Teste2 { get; set; }
+        public int QtdPopulacao { get; set; }
     }
 }
