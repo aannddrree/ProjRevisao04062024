@@ -22,5 +22,10 @@ namespace Services
             return _terraRepository.Insert(terra);
         }
 
+        public List<Terra> GetAll()
+        {
+            return _terraRepository.GetAll();
+        }
+
     }
 }

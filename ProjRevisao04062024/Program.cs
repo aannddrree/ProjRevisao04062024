@@ -4,7 +4,7 @@ using ProjRevisao04062024.Models;
 Console.WriteLine("Hello, World!");
 
 //RevisaoFuncoesBasicas fb = RevisaoFuncoesBasicas.GetInstance();
-
+/*
 
 Terra terra = new Terra() { Id = 1, Nome = "Terra" };
 Saturno saturno = new Saturno() { Id = 2, Nome = "Saturno" };
@@ -28,4 +28,14 @@ if (terraController.Insert(terra))
 else
 {
     Console.WriteLine("Erro");
+}*/
+
+TerraController controller = new TerraController();
+List<Terra> lst = controller.GetAll();
+
+foreach (Terra terra in lst)
+{
+    Console.WriteLine(terra);   
 }
+
+lst.ForEach(terra => Console.WriteLine(terra));

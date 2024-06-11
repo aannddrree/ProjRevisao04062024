@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{86DB8B97-76FF-4817-9BBF-14EEC81EA49F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{1F97685F-B79D-4907-82BF-B8E9F0220413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{1F97685F-B79D-4907-82BF-B8E9F0220413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{632B1B50-DA3F-4AC0-9EFA-BCD471A5B2C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\Controllers.csproj", "{632B1B50-DA3F-4AC0-9EFA-BCD471A5B2C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjRevisao.TerraApi", "ProjRevisao.TerraApi\ProjRevisao.TerraApi.csproj", "{AFCD1889-5AE7-430A-837D-665AB342F184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{632B1B50-DA3F-4AC0-9EFA-BCD471A5B2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632B1B50-DA3F-4AC0-9EFA-BCD471A5B2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632B1B50-DA3F-4AC0-9EFA-BCD471A5B2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCD1889-5AE7-430A-837D-665AB342F184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCD1889-5AE7-430A-837D-665AB342F184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCD1889-5AE7-430A-837D-665AB342F184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCD1889-5AE7-430A-837D-665AB342F184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

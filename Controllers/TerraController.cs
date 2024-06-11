@@ -17,6 +17,9 @@ namespace Controllers
             return _terraService.Insert(terra);
         }
 
-
+        public List<Terra> GetAll()
+        {
+            return _terraService.GetAll();
+        }
     }
 }
